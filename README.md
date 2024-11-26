@@ -22,21 +22,18 @@ This project is an advanced React-based e-commerce application that utilizes **F
 4. Start the development server and run the application locally.
 
 ## Project Structure
-/src ├── /components │ ├── /Product # Contains ProductCatalog & ShoppingCart JSX components │ ├── /User # Contains CartHistory, CreateUser, DeleteUser, Login, Logout, & UpdateUser components │ ├── AccessDenied # JSX component for context-forbidden endpoints │ ├── NotFound # JSX component for non-existent endpoints │ └── Homepage # JSX component directory and product catalog display ├── /context # Contains UserContext JSX file which stores the logged-in user ├── /features # Contains Redux slices and actions ├── /internationalization # Contains i18n file with key:value language dictionary ├── SemanticAppLayout # JSX file pulling everything together and keeping it current └── store # Central hub of the application's states
-
-## Project Structure
-/src
-  /components
-    /Product                # contains ProductCatalog & ShoppingCart jsx components
-    /User                   # contains CartHistory, CreateUser, DeleteUser, Login, Logout, & UpdateUser components
-    AccessDenied            # jsx component for context-forbidden endpoints
-    NotFound                # jsx component for non-existent endpoints
-    Homepage                # jsx component directory and productcatalog display
-  /context                  # contains UserContext jsx file which stores the logged in user
-  /features                 # contains Redux slices and actions
-  /internationalization     # contains i18n file with key:value language dictionary
-  SemanticAppLayout         # jsx file pulling everything together and keeping it current
-  store                     # central hub of the applications states 
+- /src
+-   /components
+-   /Product                # contains ProductCatalog & ShoppingCart jsx components
+-   /User                   # contains CartHistory, CreateUser, DeleteUser, Login, Logout, & UpdateUser components
+-   AccessDenied            # jsx component for context-forbidden endpoints
+-   NotFound                # jsx component for non-existent endpoints
+-   Homepage                # jsx component directory and productcatalog display
+-   /context                  # contains UserContext jsx file which stores the logged in user
+-   /features                 # contains Redux slices and actions
+-   /internationalization     # contains i18n file with key:value language dictionary
+-   SemanticAppLayout         # jsx file pulling everything together and keeping it current
+-   store                     # central hub of the applications states 
 
 ## Technologies Used
 - **React**: For building the user interface.
